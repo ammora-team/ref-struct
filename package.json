@@ -22,12 +22,13 @@
   },
   "dependencies": {
     "@ammora/ref": "github:ammora-team/ref#node-13",
+    "@ammora/ref-array": "github:ammora-team/ref-array#node-13",
     "debug": "4"
   },
   "devDependencies": {
     "bindings": "~1.5.0",
     "mocha": "*",
     "nan": "2",
-    "ref-array": "github:lxe/ref-array#node-12"
+    "ref-array": "github:ammora-team/ref-array#node-13"
   }
 }
