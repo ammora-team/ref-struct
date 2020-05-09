@@ -1,5 +1,5 @@
 {
-  "name": "ref-struct",
+  "name": "@ammora/ref-struct",
   "description": "Create ABI-compliant \"struct\" instances on top of Buffers",
   "keywords": [
     "struct",
@@ -9,7 +9,7 @@
     "c++",
     "ffi"
   ],
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "repository": {
     "type": "git",
@@ -21,12 +21,13 @@
     "test": "node-gyp rebuild --directory test && mocha -gc-global --expose-gc --reporter spec"
   },
   "dependencies": {
+    "@ammora/ref": "github:ammora-team/ref#node-13",
     "debug": "4"
   },
   "devDependencies": {
     "bindings": "~1.5.0",
-    "nan": "2",
     "mocha": "*",
-    "ref-array": "lxe/ref-array#node-12"
+    "nan": "2",
+    "ref-array": "github:lxe/ref-array#node-12"
   }
 }
